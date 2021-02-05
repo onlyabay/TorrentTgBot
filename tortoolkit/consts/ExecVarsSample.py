@@ -5,12 +5,12 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = "c3e3bdcaf3486d3222dcff67a6ea9a77"
-        API_ID = "1600667"
-        BOT_TOKEN = "1540012230:AAGPUnIgp4Ppwd6lqjb2zJ2R8-TUn2VRjjc"
+        API_HASH = "efce4a04d1349fc6e007cafcefe640b0"
+        API_ID = "2984400"
+        BOT_TOKEN = "1456987498:AAGtiwtCm0nTNxr3JK4H9tWyHzx-aeNognE"
         BASE_URL_OF_BOT = "https://gautamleecherbot.herokuapp.com/"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [1030989359,-1001206349958]
+        ALD_USR = [982055867,-1001169765253,-1001432689018]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -28,7 +28,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://abdzbgwltfziwy:016aea57b883362ef1305b5d340f2ea83dcdf4e958e71f5cedbb020a72b5d81f@ec2-54-157-234-29.compute-1.amazonaws.com:5432/d8j8aptt91frmi"
+        DB_URI = "postgresql://onlyaby:bayu123ok@postgresql/postgres"
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/Bot Uploads/Leech Bot"
